@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmarteraspGithub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+836268f790fa112f690f7c0e241024d8b499107f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmarteraspGithub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmarteraspGithub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
