@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\smarterasp.net.props" />
+</Project>
