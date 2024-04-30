@@ -28,8 +28,8 @@ jobs:
       - name: Deploy to Simply        
         uses: talunzhang/auto-web-deploy@v1.0.1
         with:
-          website-name: jamesstaff-001-site9
-          server-computer-name: https://win5214.site4now.net:8172
-          server-username: jamesstaff-001
-          server-password: admin@123
-          source-path: '\SmarteraspGithub\bin\release\'
+        website-name: ${{ secrets.WEBSITE_NAME }}
+        server-computer-name: ${{ secrets.SERVER_COMPUTER_NAME }}
+        server-username: ${{ secrets.SERVER_USERNAME }}
+        server-password: ${{ secrets.SERVER_PASSWORD }}
+        source-path: '\SmarteraspGithub\bin\release\'
