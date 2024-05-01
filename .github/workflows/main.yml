@@ -20,7 +20,7 @@ jobs:
         run: dotnet build --configuration Release --no-restore
 
       - name: Publish
-        run: dotnet publish
+        run: dotnet publish net-core-smarterasp.net/samrteraspgithub.csproj --configuration Release --framework netcoreapp6.0 --output ./publish --runtime win-x86 --self-contained true -p:PublishTrimmed=false -p:PublishSingleFile=false
         
       - name: Test with .NET
         run: dotnet test
@@ -32,4 +32,4 @@ jobs:
           server-computer-name: ${{ secrets.SERVER_COMPUTER_NAME }}
           server-username: ${{ secrets.SERVER_USERNAME }}
           server-password: ${{ secrets.SERVER_PASSWORD }}
-          source-path: '\SmarteraspGithub\bin\release\'
+    ## source-path: '\SmarteraspGithub\bin\release\'
