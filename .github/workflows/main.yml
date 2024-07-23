@@ -26,9 +26,9 @@ jobs:
         run: dotnet test
 
       - name: Deploy to Simply        
-        uses: talunzhang/auto-web-deploy@v1.0.1
+        uses: rookieWg/simply-web-deploy@v1.0.1
         with:
-          website-name: ${{ secrets.WEBSITE_NAME }
+          website-name: ${{ secrets.WEBSITE_NAME }}
           server-computer-name: ${{ secrets.SERVER_COMPUTER_NAME }}
           server-username: ${{ secrets.SERVER_USERNAME }}
           server-password: ${{ secrets.SERVER_PASSWORD }}
