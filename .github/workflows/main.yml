@@ -28,8 +28,13 @@ jobs:
       - name: Deploy to Simply        
         uses: talunzhang/auto-web-deploy@v1.0.1
         with:
-          website-name: ${{ secrets.WEBSITE_NAME }}
-          server-computer-name: ${{ secrets.SERVER_COMPUTER_NAME }}
-          server-username: ${{ secrets.SERVER_USERNAME }}
-          server-password: ${{ secrets.SERVER_PASSWORD }}
-          target-delete: true
+          website-name: ricappssolutions-002-site7
+          server-computer-name: https://win5077.site4now.net:8172
+          server-username: ricappssolutions-002
+          server-password: RicPa$$w0rd
+          
+      #   website-name: ${{ secrets.WEBSITE_NAME }
+      #   server-computer-name: ${{ secrets.SERVER_COMPUTER_NAME }}
+      #   server-username: ${{ secrets.SERVER_USERNAME }}
+      #   server-password: ${{ secrets.SERVER_PASSWORD }}
+      #   target-delete: true
